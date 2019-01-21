@@ -1,0 +1,59 @@
+/*---------- Custom Variables ------------------ */
+:root {
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  --line: 1px solid var(--color-gray-light-2);
+
+  --animation-duration: all 0.5s;
+  --animation-duration-fast: all 0.2s;
+}
+
+/*---------- BASE ------------ */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1 rem = 10px; 10px/16px = 62.5% */
+  text-rendering: optimizeLegibility;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  box-sizing: border-box;
+  /* min-width: 330px; */
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary-light);
+}
+
+/*---------- TYPOGRAPHY ------------ */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 1.6rem;
+  /* color: var(--text-color-primary); */
+}
+/* 
+@media (max-width: 1200px) {
+  html {
+    font-size: 56.25%; 
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 50%; 
+  }
+} */
